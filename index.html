@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Library</h1>
+      <div class="btns">
+        <button id="addBook-el" class="addBook-el">Add Book</button>
+        <button class="editBtn-el" id="noAddBook">Don't add</button>
+      </div>
+    </header>
+    <main id="bookGrid"></main>
+    <form id="form-el">
+      <div class="inputArea">
+        <h3>Title</h3>
+        <label for=""><input type="text" id="titleBook" /></label>
+        <h3>Author</h3>
+        <label for=""><input type="text" id="authorBook" /></label>
+        <h3>Pages</h3>
+        <label for=""><input type="number" id="pagesBook" /></label>
+        <h3>Read</h3>
+        <label for="isReadBook" id="isReadBook" class="checkbox">
+          <input type="checkbox" name="isReadBook" id="Is read" value="true" />
+          <p>Yes</p>
+          <input
+            type="checkbox"
+            name="isReadBook"
+            id="Not read"
+            value="false"
+          />
+          <p>No</p>
+        </label>
+      </div>
+      <div class="textarea">
+        <h3>Description</h3>
+        <label for=""><input type="textarea" id="descriptionBook" /></label>
+        <button id="submitBook">Add Book</button>
+      </div>
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>

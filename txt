@@ -1,0 +1,4 @@
+todo
+
+- Array som håller book objects
+- Loop som går igenom hela listan och displayar
